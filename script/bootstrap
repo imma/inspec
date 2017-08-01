@@ -4,7 +4,11 @@ function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
 
-  uname -a
+  block compile bundler
+
+  mkdir -p "$shome/bin"
+  cd "$shome/bin"
+  (set +f; ln -nfs ../vendor/bundle/bin/inspec "$shome/bin/")
 }
 
 main "$@"
