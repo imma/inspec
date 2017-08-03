@@ -22,7 +22,7 @@ GEM
     hashie (3.5.6)
     htmlentities (4.3.4)
     httpclient (2.8.3)
-    inspec (1.31.1)
+    inspec (1.32.1)
       addressable (~> 2.4)
       faraday (>= 0.9.0)
       hashie (~> 3.4)
@@ -118,7 +118,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  inspec (~> 1.31.1)
+  inspec (~> 1.32.1)
 
 BUNDLED WITH
    1.15.3

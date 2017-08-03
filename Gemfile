@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 
-gem "inspec", "~>1.31.1"
+gem "inspec", "~>1.32.1"
