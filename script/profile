@@ -6,7 +6,7 @@ function _inspec_profile {
   #export ANSIBLE_ROLES_PATH="$shome/roles${ANSIBLE_ROLES_PATH:+:${ANSIBLE_ROLES_PATH}}"
   #export ANSIBLE_LIBRARY="$shome/library${ANSIBLE_LIBRARY:+:${ANSIBLE_LIBRARY}}"
 
-  INSPEC_VERSION='1.32.1'
+  INSPEC_VERSION='1.33.1'
 }
 
 _inspec_profile
