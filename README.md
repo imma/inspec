@@ -1,0 +1,1 @@
+content/inspec.md
