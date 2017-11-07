@@ -1,3 +1,5 @@
 /bin/inspec
 /.bundle
 /vendor/bundle
+Gemfile.lock
+Gemfile.lock
