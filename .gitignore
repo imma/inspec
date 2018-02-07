@@ -1,5 +1,5 @@
 /bin/inspec
 /.bundle
-/vendor/bundle
+/vendor
 Gemfile.lock
 Gemfile.lock
